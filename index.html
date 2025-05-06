@@ -1,58 +1,57 @@
 <!DOCTYPE html>
 <html lang="ro">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Magazin Online</title>
+        <link rel="stylesheet" href="style.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+    </head>
+    
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Magazin Online</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
 </head>
-
 <body>
-
     <header>
-        <h1>Magazin Online</h1>
+        <div class="logo">Magazin Online</div>
         <nav>
             <ul>
                 <li><a href="acasa.html">Acasă</a></li>
-                <li><a href="index.html">Produse</a></li>
+                <li><a href="index.html" class="active">Produse</a></li>
                 <li><a href="despre.html">Despre noi</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
 
-
- 
-
-
-    <div class="products">
-        <div class="product">
-            <img src="iphone.png" alt="iPhone 12 mini">
+    <main class="products">
+        <div class="product-card">
+            <img src="iphone.jpg" alt="iPhone 12 mini" />
             <h2>Telefon Mobil</h2>
             <p class="price">999 RON</p>
-            <button><a href="Iphone12.html">Adaugă în coș</a></button>
+            <a href="Iphone12.html" class="btn">Adaugă în coș</a>
         </div>
 
-        <div class="product">
-            <img src="tableta.jpg" alt="Produs 2">
+        <div class="product-card">
+            <img src="tableta.jpg" alt="Tableta" />
             <h2>Tableta</h2>
             <p class="price">699 RON</p>
-            <button><a href="tableta.html">Adaugă în coș</button>
+            <a href="tableta.html" class="btn">Adaugă în coș</a>
         </div>
 
-        <div class="product">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaHXjM9Y19Gb1rEC9JeZLRZHXK0Hf5io-nAA&s" alt="Produs 3">
+        <div class="product-card">
+            <img src="ceas.jpg" alt="Ceas Smart" />
             <h2>Ceas Smart</h2>
             <p class="price">399 RON</p>
-            <button><a href="ceas.html">Adaugă în coș</button>
+            <a href="ceas.html" class="btn">Adaugă în coș</a>
         </div>
-    </div>
+    </main>
 
     <footer>
         <p>&copy; 2025 Magazin Online. Toate drepturile rezervate.</p>
     </footer>
-
 </body>
-
 </html>
