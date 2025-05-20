@@ -1,51 +1,3 @@
-body {
-    font-family: 'Segoe UI', sans-serif;
-    background: #f9f9f9;
-    margin: 0;
-    padding: 0;
-    color: #333;
-}
-
-header {
-    background: #4f46e5;
-    color: white;
-    padding: 20px 0;
-    text-align: center;
-}
-
-.container {
-    max-width: 600px;
-    margin: 40px auto;
-    padding: 20px;
-    background: white;
-    border-radius: 12px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-    text-align: center;
-}
-
-img {
-    max-width: 100%;
-    border-radius: 8px;
-    margin-bottom: 20px;
-}
-
-.price {
-    color: #e11d48;
-    font-size: 1.5rem;
-    font-weight: bold;
-    margin: 10px 0;
-}
-
-.specs {
-    list-style: none;
-    padding: 0;
-    text-align: left;
-}
-
-.specs li {
-    padding: 8px 0;
-    border-bottom: 1px solid #eee;
-}
 /* Variabile opționale */
 :root {
     --primary-color: #2c3e50;
@@ -94,3 +46,35 @@ img {
     font-weight: bold;
   }
   
+  .despre-noi {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 16px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Poppins', sans-serif;
+}
+
+.despre-noi h1 {
+    font-size: 2em;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.despre-noi h2 {
+    color: #3498db;
+    margin-top: 30px;
+}
+
+.despre-noi p {
+    line-height: 1.6;
+}
+
+.despre-noi ul {
+    padding-left: 20px;
+}
+
+.despre-noi ul li {
+    margin-bottom: 10px;
+}
