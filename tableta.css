@@ -4,7 +4,7 @@ body {
     background-color: #f3f3f3;
   }
   
-  /* Header */
+
   .navbar {
     background-color: #2f435b;
     color: white;
@@ -75,7 +75,7 @@ body {
     display: inline-block;
     width: 140px;
   }
-  /* Variabile opționale */
+
 :root {
   --primary-color: #2c3e50;
   --accent-color: #3498db;

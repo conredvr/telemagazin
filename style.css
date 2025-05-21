@@ -34,7 +34,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px; /* spațiu între logo și meniu */
+    gap: 20px; 
 }
 
 .logo {
@@ -62,7 +62,7 @@ nav ul li a {
 
 nav ul li a:hover,
 nav ul li a.active {
-    background-color: var(--secondary-color);
+   background-color: transparent;
 }
 
 
@@ -86,8 +86,8 @@ nav ul li a.active {
     flex-direction: column;
     justify-content: space-between;
 
-    height: 100%; /* permite întinderea pe verticală */
-    min-height: 500px; /* opțional: înălțime fixă pentru egalizare completă */
+    height: 100%; 
+    min-height: 500px; 
     text-align: center;
 }
 
