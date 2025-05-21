@@ -1,4 +1,4 @@
-/* Variabile opționale */
+
 :root {
     --primary-color: #2c3e50;
     --accent-color: #3498db;
@@ -46,3 +46,36 @@
     font-weight: bold;
   }
   
+  .container {
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+img {
+    max-width: 50%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.price {
+    color: #e11d48;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.specs {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+.specs li {
+    padding: 8px 0;
+    border-bottom: 1px solid #eee;
+}
